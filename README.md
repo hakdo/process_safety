@@ -61,7 +61,7 @@ h = u + pV
 
 n C_v dT = n_b (u-u-pV) = - n_b pV = - n_b RT (ideal gas)
 
-dT/dt = -(n_b/n) RT
+dT/dt = -(n_b/nC_v) RT
 
 Transform to mass basis by multiplying by M, and insert for mass flow rate for choked flow, then solve using a numerical ODE solver 
 
