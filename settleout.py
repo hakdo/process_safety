@@ -1,11 +1,10 @@
 ###############################################################
 # blowdown.py
 #
-# Script to calculate orifice size of ideal gas relief problem.
-# Usage: ./blowdown.py 25 900
-# Simulates blowdown through a 25 mm diameter orifice for 900 seconds.
+# Script to calculate settle-oput pressure.
+# Usage: ./settleout.py
 #
-# Dependencies: see requirements.txt
+# Dependencies: none.
 # H. Olsen - 2021 @sjefersuper
 # License: MIT
 ###############################################################
