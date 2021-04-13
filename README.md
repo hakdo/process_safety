@@ -1,6 +1,6 @@
 # Exercise: process safety
 
-## Dpressurization of closed volume of ideal gas with heat input
+## Depressurization of closed volume of ideal gas with heat input
 Assume you have a volume of 20 m<sup>3</sup> with an ideal at 200 barg pressure. 
 
 You can assume choked flow for your calculation.
