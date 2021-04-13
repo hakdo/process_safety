@@ -47,6 +47,20 @@ Would you use design conditions or operating conditions as
 basis for your process safety calculations?
 
 ## Solution
+### Modeling
+Mass balance for gas volume in tank: dn = -n_b
+
+Energy balance, molar terms: 
+d(nu) = -n_b h
+n du + u dn = -n_b h --> n du - n_b u = -n_b h --> n du = n_b (u - h)
+du = C_v dT
+h = u + pV
+n C_v dT = n_b (u-u-pV) = - n_b pV = - n_b RT (ideal gas)
+dT/dt = -(n_b/n) RT
+
+Transform to mass basis by multiplying by M, and insert for mass flow rate for choked flow, then solve using a numerical ODE solver 
+
+### Code
 Clone the repository, then run `pip install -r requirements.txt`. It is recommended to use a virtual environment to avoid polluting the dependency space.
 
 To solve the first, run the *blowdown.py* script as follows 
