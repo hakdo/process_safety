@@ -46,4 +46,13 @@ conditions. Will the upstream piping be overpressurized?
 Would you use design conditions or operating conditions as 
 basis for your process safety calculations?
 
+## Solution
+Clone the repository, then run `pip install -r requirements.txt`. It is recommended to use a virtual environment to avoid polluting the dependency space.
 
+To solve the first, run the *blowdown.py* script as follows 
+
+`./blowdown.py <diameter-in-mm> <tmax>`.
+
+Vary the diameter until you find a suitable size.
+
+To solve the second, simply run ./settleout.py.
